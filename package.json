@@ -1,9 +1,10 @@
 {
-  "license": "MIT License",
+  "license": "MIT",
   "name": "mermaid_wrapper",
   "version": "1.0.0",
   "scripts": {
-    "png": "func() { $(yarn bin)/mmdc -i $1 -o $1.png; }; func"
+    "mmdc": "$(yarn bin)/mmdc",
+    "png": "func() { $(yarn bin)/mmdc -c mermaid-config.json -w 2048 -i $1 -o $1.png; }; func"
   },
   "dependencies": {
     "mermaid.cli": "^0.5.1"
