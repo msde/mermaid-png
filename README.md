@@ -3,6 +3,11 @@
 Mermaid is great!  Unfortunately the live editor only exports to SVG.
 Confluence sucks!  It doesn't support SVG.
 
+## Copy to my own repo
+
+* `svn export https://github.com/msde/mermaid-png/trunk mermaid`
+* `cd mermaid`
+
 ## Installing
 
 * yarn
