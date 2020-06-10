@@ -3,10 +3,10 @@
   "name": "mermaid_wrapper",
   "version": "1.0.0",
   "scripts": {
-    "mmdc": "$(yarn bin)/mmdc",
-    "png": "func() { $(yarn bin)/mmdc -c mermaid-config.json -w 2048 -i $1 -o $1.png; }; func"
+    "mmdc": "$(npm bin)/mmdc",
+    "png": "func() { $(npm bin)/mmdc -c mermaid-config.json -w 2048 -i $1 -o $1.png; }; func"
   },
   "dependencies": {
-    "mermaid.cli": "^0.5.1"
+    "@mermaid-js/mermaid-cli": "^8.5.1-2"
   }
 }
